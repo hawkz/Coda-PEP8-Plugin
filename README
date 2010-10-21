@@ -1,0 +1,7 @@
+This is rather quickly monkey patched version of the PEP8.py checker, that I've converted into a Coda Plug-in.
+
+We've disabled E501 for our purposes, only checks current document, and uses a temporary file as a workaround.
+
+Results are thrown into a new window.
+
+Hope this helps someone out there!

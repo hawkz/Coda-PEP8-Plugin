@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>CodaScriptPlugIn</string>
+	<key>CFBundleIconFile</key>
+	<string>plug-in</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.panic.CodaScriptPlugIn</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.1</string>
+	<key>CodaPlugInMinimumAPIVersion</key>
+	<string>3</string>
+	<key>NSPrincipalClass</key>
+	<string>CodaScriptPlugIn</string>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>fallbackInput</key>
+			<string>none</string>
+			<key>input</key>
+			<string>document</string>
+			<key>name</key>
+			<string>Check PEP8</string>
+			<key>output</key>
+			<string>newDocument</string>
+			<key>script</key>
+			<string>pep8.py</string>
+			<key>uuid</key>
+			<string>E081210F-BBBA-428E-9EF3-DD2CC959091C</string>
+		</dict>
+	</array>
+</dict>
+</plist>
